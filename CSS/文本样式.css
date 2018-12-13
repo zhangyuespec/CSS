@@ -1,0 +1,39 @@
+div{
+    font-size: 20px;
+
+    /*文本字体*/
+    font-family: "Helvetica Neue", sans-serif;
+
+    /*颜色*/
+    color: red;
+
+    /*设置文字倾斜*/
+    /*font-style: italic;*/
+
+    /*设置行高*/
+    line-height: 40px;
+
+    /*首行缩进,一个字是20px,这样就不用给&nbsp了*/
+    text-indent: 40px;
+}
+em{
+    font-style: italic;
+    color: gold;
+    font-weight: bolder;
+}
+h1{
+    /*把h1设置成不加粗*/
+    font-weight: normal;
+}
+span{
+    line-height: 40px;/*设置行高，行高在文字的上下都有，相当于是一个格子*/
+    color: gold;
+    text-decoration: underline;/*加下划线*/
+}
+a{
+    text-decoration: none;/*去掉链接的下划线*/
+    /*a标签不能设置居中，p标签可以设置居中*/
+}
+p{
+    text-align: center;/*设置居中*/
+}

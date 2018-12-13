@@ -1,0 +1,39 @@
+div{
+    /*能影响到所有的div*/
+    font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
+}
+
+*{
+    /*能影响到所有标签*/
+    color: gold;
+}
+
+/*id选择器,用标签的id来匹配，标签的id不能重复,实际开发中不常用*/
+#div1{
+    color: red;
+}
+#div2{
+    color: aqua;
+}
+/*类选择器，是实际开发中常用的 选择器*/
+.green{
+    color: green;
+}
+.big{
+    font-size: 40px;
+}
+
+/*层级选择器，csdn源码，配合标签选择器和类选择器一起用*/
+.box{
+    font-size: 20px;
+    line-height: 30px;
+    color: red;
+    text-indent: 40px;
+}
+.box span{/*层级选择器，box下面的span都是这个样式*/
+    color: green;
+}
+.box em{
+    color: black;
+    font-style: normal;
+}

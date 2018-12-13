@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/CSS选择器.css">
+    <meta charset="UTF-8">
+    <title>标签选择器</title>
+</head>
+<body>
+    <div id="div1" class="green">这是第一个div</div><!--id用来匹配id选择器-->
+    <!--用id选择器设置blue，用类选择器设置green，因为id的权重高于类选择器，所以还是blue-->
+    <div id="div2">这是第二个div</div>
+    <div class="big" >这是第三个div</div>
+    <!--用class来匹配类选择器，实际开发中常用这个，比如淘宝的前段代码-->
+    <span class="green big">这是一个span</span>
+    <p>这是p标签</p>
+    <div class="box">
+        层级选择器主要应用在<span>选择父元素</span>下的子元素，或者子元素下面的子元素，
+        可与标签元素结合使用，减少命名，同时可以通过层级，防止命名冲突
+        层级选择器主要应用在选<em>择父元素</em>下的子元素，或者子元素下面的子元素，
+        可与标签元素结合使用，减少命名，同时可以通过层级，防止命名冲突
+    </div>
+</body>
+</html>
