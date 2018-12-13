@@ -37,3 +37,51 @@ div{
     color: black;
     font-style: normal;
 }
+.box .span02{
+    color: black;
+}
+.box .box4{
+    color: blue;
+}
+.box1{
+    color: red;
+}
+.box2{
+    color: pink;
+}
+.box3{
+    color: black;
+}
+
+.box1,.box2,.box3{  /*把相同的样式定义在主选择器*/
+    font-size: 50px;
+    text-align: center;
+}
+
+/*
+伪类及伪元素选择器：
+    常用的伪类选择器有ｈｏｖｅｒ，表示鼠标悬浮在元素上时的状态，伪元素选择器有ｂｅｂｏｒｅ
+    和ａｆｔｅｒ，他们可以通过样式在元素中插入内容
+*/
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    color: pink;
+}
+.link:hover{/*伪类*/
+    color: black;
+    font-weight: bold; /*鼠标放上去之后会变颜色，字体加粗*/
+}
+/*表示鼠标放上去时的悬停状态*/
+
+/*伪元素*/
+.box01,.box02{
+    font-size: 20px;
+}
+.box01:before{
+    content: "伪元素选择器新加的文字";
+}
+.box02:after{
+    content: "伪元素添加到后面的";
+    color: black;
+}
