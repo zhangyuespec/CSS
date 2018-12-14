@@ -1,0 +1,12 @@
+.box{
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto 0;
+}
+
+.box div{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

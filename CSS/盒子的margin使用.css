@@ -1,0 +1,25 @@
+.box0{
+    width: 200px;
+    height: 200px;
+    /*margin-left!*: 200px;
+    margin-top: 200px;*!
+    */
+    /*margin: 50px 60px 100px 200px;*/
+    margin: 50px auto 100px;
+    background-color: red;
+}
+
+.box{
+    width: 202px;
+    height: 156px;
+    background-color: pink;
+    margin: 50px auto 0;
+}
+
+.box div{
+    width: 200px;
+    height: 30px;
+    border: 1px solid green;
+    background-color: blue;
+    border-bottom: 0px;
+}

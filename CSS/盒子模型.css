@@ -1,0 +1,26 @@
+.box{
+    width: 200px;/*盒子的宽*/
+    height: 200px;/*盒子高度*/
+    background-color: pink;
+    border-top-color: black;/*顶部边框颜色，宽度，线的样式*/
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-left-color: black;
+    border-left-width: 10px;
+    border-left-style: dashed;/*虚线*/
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 10px red solid;
+    /*padding-top: 50px;!*设置文字和顶部的距离*!
+    padding-left: 10px;
+    padding-right: 10px;*/
+    padding: 20px 80px 100px 40px;
+    /*设置盒子的上右下左的ｐａｄｄｉｎｇ值,如果设置两个值，第一个代表上下，第二个代表左右*/
+
+    margin-top: 100px;
+    margin-left: 100px;/*改变外面间距，其实就是改变盒子在浏览器中的位置*/
+
+}
