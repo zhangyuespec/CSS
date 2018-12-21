@@ -1,0 +1,78 @@
+.menu{
+    list-style:none;
+    width: 958px;
+    padding: 0;
+    margin: 50px auto 0;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    height: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font: normal 14px/40px 'Micrsoft YaHei';
+    color: black;
+}
+
+.menu li a:hover{
+    color: red;
+}
+
+.menu li span{
+    display: block;
+    height: 40px;
+    font: normal 14px/40px 'Micrsoft YaHei';
+    margin: 0 20px;
+}
+
+.menu02{
+    width: 960px;
+    height: 40px;
+    list-style-type: none;
+    background-color: #55a8ea;
+    margin: 50px auto 0;
+    padding: 0;
+    position: relative;
+}
+
+.menu02 li{
+    /*display: inline-block;*/
+    width: 100px;
+    height: 40px;
+    float: left;
+    /*background-color: red;*/
+}
+
+.menu02 li a {
+    /*background-color: black;*/
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.menu02 li a:hover{
+    color: black;
+}
+
+.menu02 .new{
+    width: 33px;
+    height: 20px;
+    background: url("../images/new.png") no-repeat;
+    position: absolute;
+    left: 100px;
+    top:20px;
+}

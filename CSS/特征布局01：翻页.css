@@ -1,0 +1,33 @@
+.pagenation{
+    list-style: none;
+    margin:50px auto 0;
+    padding: 0;
+    width: 600px;
+    height: 40px;
+    border: 1px solid gray;
+    font-size: 0;
+    text-align: center ;
+
+}
+
+.pagenation li{
+    display: inline-block;/*让他们在一行显示*/
+    height: 26px;
+    background-color: gold;
+    /*这个时候如果没有设置父级和子集的font-size，每个li之间会有空格
+    */
+    font-size: 12px;
+   /* margin-top: 7px;*/
+    margin: 7px 5px 0;/*
+    每个li上面是7，左右是5，下面是0*/
+
+}
+
+.pagenation li a {
+    display: block;/*将每个a转换成行内块*/
+    text-decoration: none;
+    line-height: 26px;
+    padding: 0 10px 0;
+    font:normal 12px/26px 'Micrsoft YaHei';
+    color: red;
+}
