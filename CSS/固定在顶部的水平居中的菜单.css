@@ -1,0 +1,48 @@
+.menu{
+    height: 80px;
+    background-color: gold;
+    position: fixed;/*固定定位*/
+    width: 960px;
+    top: 0px;
+    left: 50%;
+    margin-left: -480px;
+}
+p{
+    text-align: center;
+}
+
+.popup{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: gold;
+    color: white;
+    position: fixed;
+    left: 50%;
+    margin-left: -251px;
+    top: 50%;
+    margin-top: -150px;
+    z-index: 9999;
+}
+
+.popup h2{
+    background-color: gold;
+    margin: 10px;
+    height: 40px;
+
+}
+
+.mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    left: 0;
+    top: 0;
+    opacity: 0.5;/*设置透明度０*/
+    z-index: 9998;
+}
+
+.popcon{
+    display: block;
+}

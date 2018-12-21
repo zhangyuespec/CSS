@@ -1,0 +1,10 @@
+.box{
+    width: 500px;
+    height: 375px;
+    margin: 50px auto 0;
+    border: 5px solid black;
+
+    background-image: url("../images/002.jpg");
+    background-position: -150px -100px;
+    background-repeat: no-repeat;
+}

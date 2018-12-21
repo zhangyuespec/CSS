@@ -1,0 +1,32 @@
+.list{
+    list-style: none;/*去掉ｌｉｓｔ的小圆点*/
+    margin: 50px auto 0;
+    width: 300px;
+    height: 305px;
+    padding: 0px;
+    background: gold;
+}
+
+.list li{
+    height: 60px;
+    border:1px dotted red;
+    line-height: 60px;
+    text-indent: 50px;/*首行缩进，给图片空出位置*/
+    background: url("../images/bg01.png") left 10px no-repeat cyan;
+}
+
+.list .icon02{
+    background-position: 0px -70px;
+}
+
+.list .icon03{
+    background-position: 0px -150px;
+}
+
+.list .icon04{
+    background-position: 0px -235px;
+}
+
+.list .icon05{
+    background-position: 0px -315px;
+}

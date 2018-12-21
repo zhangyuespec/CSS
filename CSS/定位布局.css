@@ -1,0 +1,21 @@
+.con{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    margin: 50px auto 0;
+    position: relative;
+    border-radius: 14px;
+}
+
+.box{
+    width: 28px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    left: 86px;
+    bottom: 86px;
+    border-radius: 14px;
+}
